@@ -1,0 +1,181 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.container .logo{
+    display: flex;
+    align-items: center;
+}
+
+.container .logo img{
+    height: 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+nav .active a,
+nav a:hover{
+    color: white;
+    background-color: #39aae1;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 0 1px 0px #00000033;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    font-weight: lighter;
+}
+
+.banner_headline h2{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 1px 0px #00000033;
+    margin: 20px 0 0 0;
+    padding: 0;
+    max-width: 350px;
+    font-weight: lighter;
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: white;
+    padding: 20px 25px;
+}
+
+.banner1{
+    background-color: #39aae1;
+}
+
+.banner2{
+    background-color: #0079c7;
+}
+
+.banner3{
+    background-color: #2b4c99;
+}
+
+.banner_options h1{
+    margin: 0;
+    font-size: 23px;
+}
+
+.banner_options p{
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.banner_options a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #FFF;
+}
+
+.banner3 .doctors_time{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    margin-top:20px;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin: 30px 0px 20px 0px;
+}
+
+.widget_title_text{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.widget_title_bar{
+    height: 2px;
+    width: 50px;
+    background-color: #36aae1;
+    margin-top: 10px;
+}
