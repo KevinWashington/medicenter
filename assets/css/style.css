@@ -58,7 +58,7 @@ nav a:hover{
     background-color: #39aae1;
 }
 
-#banner{
+.banner{
     display: flex;
     justify-content: center;
     background-image: url("../images/img1.jpg");
@@ -247,4 +247,85 @@ article .news_resume{
     height: 150px;
     background-color: #36aae1;
     margin: 20px 0px;
+}
+
+.widget_body .times_title{
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom:30px;
+}
+
+.widget_body address{
+    width: 300px;
+    padding: 20px 0px;
+    border-top:1px solid #555;
+}
+
+.border_bottom{
+    border-bottom:1px solid #555;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+}
+
+.footer_menu{
+    display: flex;
+}
+
+.fm_1,
+.fm_2,
+.fm_3{
+    flex: 1;
+    color: #fff;
+    padding:20px;
+    font-size: 12px;
+}
+.footer_menu h1,p{
+    margin: 0;
+    padding: 0;
+}
+
+.fm_1{
+    background-color: #39aae1;
+}
+
+.fm_2{
+    background-color: #0079c7;
+}
+
+.fm_3{
+    background-color: #2b4c99;
+}
+
+.footer_area{
+    display: flex;
+}
+
+.footer_area_item{
+    flex: 1;
+    color: #FFF;
+}
+
+footer .widget_title_text{
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.footer_area .widget_body p{
+    padding: 20px 0px;
+    color: #555;
+}
+
+.footer_copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
 }
