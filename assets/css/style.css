@@ -256,7 +256,7 @@ article .news_resume{
     margin-bottom:30px;
 }
 
-.widget_body address{
+.widget_body .department_address address{
     width: 300px;
     padding: 20px 0px;
     border-top:1px solid #555;
@@ -312,16 +312,49 @@ footer{
 
 footer .widget_title_text{
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: lighter;
 }
 
-.footer_area .widget_body p{
-    padding: 20px 0px;
+.footer_area .widget_body{
+    margin: 10px 0px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.footer_area .footer_address{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
     color: #555;
 }
 
+.footer_area .footer_address{
+    font-size: 12px;
+}
+
+.footer_area .widget_body p{
+    color: #555;
+}
+
+.widget_body .post{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+.widget_body .post .content{
+    margin-left: 10px;
+    color: #fff;
+}
+
+.widget_body .post .post_date{
+    color: #36aae1;
+}
+
 .footer_copy{
+    margin-top: 30px;
     border-top: 1px solid #2c2c2c;
     height: 40px;
     line-height: 40px;
